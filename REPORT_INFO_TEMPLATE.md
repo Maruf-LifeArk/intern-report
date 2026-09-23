@@ -11,6 +11,7 @@ like your own work.
 - Department / Program: Computer Science & Engineering (CSE) — Green University of Bangladesh (confirmed)
 - Semester / Term of submission (e.g. Summer 2026): Summer 2026
 - Report submission date: 28 September 2026
+- Internship date: 23 July to 23 September (130 hours)
 - Academic supervisor name & designation: Md. Solaiman Mia (Already in the template)
 - Industrial (on-site) supervisor name & designation: Md Mochaddec Hossain, Business Analyst
 
@@ -131,33 +132,6 @@ Figma, Claude Code, Antigravity IDE, Jira, Slack, HTML, CSS, JavaScript, SRS/PRD
 The work produced structured requirements, system workflows, and interactive UI concepts for the proposed IIoT solution. The resulting documentation and prototypes provided a clearer foundation for future development and helped bridge the gap between industrial requirements and software implementation.
 
 ---
-
-### 3. Warehouse Management System (WMS) — Existing System Enhancement
-
-**Project Description:**
-An existing Warehouse Management System used for managing warehouse-related operations and information. My involvement focused primarily on **understanding the existing system, identifying improvement opportunities, documenting requirements, and supporting the redesign and enhancement of selected workflows and interfaces**.
-
-**My Role and Responsibilities:**
-
-* Studied the existing WMS structure, workflows, and business processes.
-* Identified areas where the existing system could be improved from a usability and functional perspective.
-* Gathered requirements for proposed improvements through discussions with the supervisor and team members.
-* Prepared and updated **PRD and SRS documentation** for selected improvements.
-* Created and reviewed system diagrams, including **DFDs, Use Case Diagrams, and ER Diagrams**, where required.
-* Suggested appropriate development and implementation approaches for the proposed changes.
-* Submitted documentation and designs for supervisor review and revised them based on feedback.
-* Designed improved UI/UX concepts and user flows using **Figma**.
-* Used **Claude Code** to turn selected designs and workflows into interactive frontend prototypes.
-* Communicated database, frontend, backend, and workflow requirements to developers.
-* Considered existing system constraints when proposing improvements to avoid unnecessary changes or conflicts with existing functionality.
-* Used **Jira** and **Slack** for project coordination, task tracking, and communication.
-* Used **Antigravity IDE** and Claude Code to support prototyping, design refinement, workflow review, and problem-solving.
-
-**Tools / Technologies Used:**
-Figma, Claude Code, Antigravity IDE, Jira, Slack, HTML, CSS, JavaScript, SRS/PRD documentation, DFD, Use Case Diagrams, ER Diagrams.
-
-**Outcome / Result / Impact:**
-The work contributed to the structured improvement of an existing WMS by documenting requirements, refining workflows, and producing improved UI/UX concepts and interactive prototypes. The documentation and prototypes helped communicate proposed changes clearly to the development team while considering the limitations and existing structure of the system.
 
 - A rough week-by-week or month-by-month log of duties, if you kept one (even bullet points are fine): dont have make it
 

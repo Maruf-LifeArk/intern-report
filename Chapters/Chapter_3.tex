@@ -1,158 +1,109 @@
 \chapter{Specific Details on Training Activities and Report}
 \label{chapter-3}
 
-% Include:
-% - Actual weekly activities performed
-% - Specific tools used (replace examples)
-% - Personal learning experiences
-% - Project details with quantifiable outcomes
-
 \section{Introduction}
 \begin{itemize}
-    \item Brief overview of the internship duration and host organization
-    \item Key learning objectives and focus areas
-    \item Technologies/tools used during training
-    \item Summary of professional growth
+    \item The industrial training was carried out at Active Green Energy Ltd. from 23 July 2026 to 23 September 2026 (approximately 130 hours), in the Digital Solutions department.
+    \item Key learning objectives included business analysis, requirements documentation, UI/UX design, and AI-assisted frontend prototyping for industrial digital products.
+    \item Technologies and tools used included Figma, Jira, Slack, Claude Code, and Antigravity IDE, alongside SRS/PRD documentation and DFD, Use Case, and ER diagramming.
+    \item Over the training period, this progressed from foundational requirement-gathering work to independently leading analysis and design work on two parallel projects, with growing autonomy in client-facing communication.
 \end{itemize}
 
-\section{Weekly Duties and Activities}
+\section{Duties and Activities}
 
-\subsection{First Week: Overall Activity / Topic Name (e.g. Foundation)}
+\subsection{Phase 1 (Weeks 1--3): Onboarding and Requirement Analysis}
 \begin{itemize}
-    \item \textbf{Orientation:} Company introduction and team onboarding
-    \item \textbf{Key Concepts Learned:}
+    \item \textbf{Orientation:} Introduction to the company, the Digital Solutions department, and internal workflow tools (Jira, Slack).
+    \item \textbf{Key Activities Learned:}
     \begin{itemize}
-        \item Software testing fundamentals
-        \item SDLC (Stages as mentioned Fig.~\ref{fig:sdlc}), and STLC methodologies
-        \item Testing types (manual/automation)
+        \item Business analysis fundamentals and the SDLC as applied within the company (see Figure~\ref{fig:sdlc}).
+        \item Structure and purpose of Software Requirements Specification (SRS) and Product Requirements Document (PRD) files.
+        \item Participation in initial client discussions, under supervision, to observe requirement-gathering in practice.
     \end{itemize}
 \end{itemize}
-
-\textcolor{red}{(You have to refer and describe every Figure you mentioned in your report like above)}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{figures/SDLC-stages.pdf}
-    \caption{SDLC Stages (Replace with actual diagram)}
+    \caption{Stages of the Software Development Life Cycle (SDLC) referenced during requirement analysis}
     \label{fig:sdlc}
 \end{figure}
 
-\subsection{Second Week:  Overall Activity / Topic Name (e.g. Practical Applications)}
+\subsection{Phase 2 (Weeks 4--6): Documentation and System Design}
 \begin{itemize}
     \item \textbf{Hands-on Training:}
     \begin{itemize}
-        \item Test case design and execution (See Table~\ref{tab:test-case-template}) \textcolor{red}{(You have to refer and describe every Table you mentioned in your report like above)}
-        \item Bug reporting workflows
-        \item Agile methodologies
+        \item Preparing and refining SRS and PRD documents based on gathered requirements.
+        \item Designing Data Flow Diagrams (DFD), Use Case Diagrams, and Entity-Relationship (ER) Diagrams to represent proposed system workflows.
+        \item Presenting draft documentation to the supervisor for review and revising based on feedback.
     \end{itemize}
-    \item \textbf{Tools Introduced:} Playwright, Postman
+    \item \textbf{Tools Introduced:} Figma (UI/UX design), Jira (task tracking).
 \end{itemize}
 
-\begin{table}[H]
-\centering
-\caption{Sample Table}
-\begin{tabular}{|l|p{8cm}|}
-\hline
-\textbf{Component} & \textbf{Description} \\ \hline
-Test Case ID & Unique identifier \\ \hline
-Test Scenario & Brief description \\ \hline
-Test Steps & Detailed actions \\ \hline
-Expected Result & Anticipated outcome \\ \hline
-\end{tabular}
-\label{tab:test-case-template}
-\end{table}
-
-\subsection{Third Week: Overall Activity / Topic Name (e.g. Automation)}
+\subsection{Phase 3 (Weeks 7--9): UI/UX Design and Prototyping}
 \begin{itemize}
-    \item \textbf{Page Object Model:}
+    \item \textbf{Design Work:}
     \begin{itemize}
-        \item Architecture design
-        \item Implementation strategy
+        \item Translating documented requirements into user flows and interface concepts in Figma.
+        \item Iterating on designs based on supervisor and, where applicable, client feedback.
     \end{itemize}
-    \item \textbf{Project Structure:}
-    \begin{lstlisting}[style=tree]
-project/
-|-- pages/
-|-- tests/
-|-- utilities/
-|-- .../
-|-- .../
-    \end{lstlisting}
-\end{itemize}
-
-\subsection{Fourth Week: Overall Activity / Topic Name (e.g. Advanced Concepts)}
-\begin{itemize}
-    \item \textbf{API Testing:} REST principles and practical implementation
-    \item \textbf{Performance Testing:} JMeter fundamentals
-    \item \textbf{Version Control:} Git/GitHub workflows
+    \item \textbf{AI-Assisted Prototyping:} Using Claude Code and Antigravity IDE to convert approved Figma designs into interactive frontend prototypes (HTML/CSS/JavaScript), while manually reviewing and validating all AI-generated output against the original requirements before sharing it further.
+    \item \textbf{Handoff:} Communicating database, frontend, backend, and system-constraint requirements to the development team ahead of implementation.
 \end{itemize}
 
 \section{Key Projects}
-\textcolor{red}{You must include workflow diagrams, ER diagrams, or sequence/class diagrams, or alternatively, add screenshots of the projects you worked on during your internship. If any screenshots contain sensitive information, ensure you have proper authorization before including them. Additionally, clearly mention your role and contributions to the project, any models used, the outcomes achieved, and the business perspective or impact of the project.}
-\subsection{Project 1: Web Application Testing} 
+
+\subsection{Project 1: Industrial Energy \& Machinery Monitoring System}
+\begin{itemize}
+    \item \textbf{Description:} A digital monitoring solution intended to provide centralized visibility into industrial energy usage and machinery-related operational data, supporting easier monitoring, reporting, and interpretation of equipment and energy information.
+    \item \textbf{My Role and Contributions:} I contributed to the business analysis, system analysis, requirements documentation, UI/UX design, and prototype development stages. Specifically, I:
     \begin{itemize}
-        \item Scope and objectives
-        \item ER and related diagrams
-        \item Tools used
-        \item Outcomes
+        \item Gathered and analyzed business and user requirements through discussions with my supervisor and relevant team members.
+        \item Prepared and refined the SRS and PRD for the system.
+        \item Documented system workflows using DFDs, Use Case Diagrams, and ER Diagrams.
+        \item Recommended suitable SDLC approaches and development methodologies based on the project's requirements.
+        \item Presented the documentation and system concepts to my supervisor for review, and revised them based on feedback.
+        \item Designed UI/UX concepts and user flows in Figma, then converted the approved designs into interactive frontend prototypes using Claude Code.
+        \item Coordinated with developers on database structure, frontend/backend requirements, and system constraints.
     \end{itemize}
-    
-\subsection{Project 2: API Test Automation} 
+    \item \textbf{Tools/Technologies Used:} Figma, Claude Code, Antigravity IDE, Jira, Slack, HTML, CSS, JavaScript, SRS/PRD documentation, DFD, Use Case Diagrams, ER Diagrams.
+    \item \textbf{Outcome/Impact:} The project produced a clearer, structured representation of the proposed digital solution ahead of implementation. The requirements documents, system diagrams, UI/UX designs, and interactive prototypes helped communicate the intended functionality between business and technical stakeholders and gave developers clearer implementation requirements.
+\end{itemize}
+
+\textcolor{blue}{\small (Add your own screenshots of the Figma designs, prototype, or system diagrams here once you're ready to include them -- see Figure~\ref{fig:project1-placeholder} as a placeholder slot.)}
+
+\subsection{Project 2: IIoT-Based Production Monitoring System}
+\begin{itemize}
+    \item \textbf{Description:} A proposed Industrial Internet of Things (IIoT) solution focused on collecting and presenting production-related industrial data in a centralized digital interface, intended to improve visibility into production activities.
+    \item \textbf{My Role and Contributions:}
     \begin{itemize}
-        \item Test coverage
-        \item ER and related diagrams
-        \item Challenges faced
-        \item Solutions implemented
+        \item Participated in the analysis of business and production-monitoring requirements.
+        \item Helped translate operational requirements into functional system features and prepared corresponding sections of the SRS and PRD.
+        \item Developed supporting workflow diagrams, including DFDs, Use Case Diagrams, and ER Diagrams.
+        \item Reviewed the proposed architecture and data flow with my supervisor and incorporated feedback.
+        \item Researched unfamiliar IIoT-related concepts required to understand the system workflow.
+        \item Designed user flows, dashboards, and interface concepts in Figma, and converted selected concepts into interactive frontend prototypes using Claude Code.
+        \item Coordinated with developers on expected data structures, frontend functionality, and system limitations.
     \end{itemize}
+    \item \textbf{Tools/Technologies Used:} Figma, Claude Code, Antigravity IDE, Jira, Slack, HTML, CSS, JavaScript, SRS/PRD documentation, DFD, Use Case Diagrams, ER Diagrams.
+    \item \textbf{Outcome/Impact:} The work produced structured requirements, system workflows, and interactive UI concepts for the proposed IIoT solution, providing a clearer foundation for future development and bridging industrial requirements with software implementation. This project also required managing a real scheduling risk -- a delayed factory visit by the IoT engineering team -- which is discussed further in Section~\ref{sec:risk-chapter1} of Chapter 1.
+\end{itemize}
 
-\subsection{Project 3: ...}
-
-\textcolor{red}{You must include Entity-Relationship (ER) diagrams and related diagrams similar to IDP2. If company policies restrict the use of original diagrams, you should use replica diagrams instead.}
-
-% \section{Automation Testing Example}
-% Below is a complete Python test automation script using Playwright that students can include in their report:
-
-% \newpage
-
-% \begin{lstlisting}[language=Python, caption={Demo Python Script}, label=code:demo]
-
-% import pandas as pd
-
-% def drop_row(csv_filename):
-%     """Read a CSV file and dropped the first row"""
-%     df = pd.read_csv(csv_filename)
-%     return df.drop(0)
-
-% df = drop_row("demo.csv")
-% \end{lstlisting}
-
-% Key Features Demonstrated:
-% \begin{itemize}
-%     \item Complete working test script
-%     \item Browser automation with Playwright
-%     \item Common test actions (navigation, assertions)
-%     \item Proper error handling
-%     \item Page object pattern basics
-% \end{itemize}
-
-% \textcolor{red}{This below section is optional}
+\textcolor{blue}{\small (Add your own screenshots or diagrams for this project here once available.)}
 
 \section{Other Responsibilities}
-
-\textcolor{red}{(e.g. Team Management, Proposal Writing)}
+\begin{itemize}
+    \item Attending client meetings alongside my supervisor to gather and validate requirements.
+    \item Presenting UI/UX designs to stakeholders, collecting feedback, and iterating on designs accordingly.
+    \item Building and demonstrating interactive prototypes to gather further feedback before handoff to development.
+\end{itemize}
 
 \section{Key Performance Indicator}
-\textcolor{red}{If you achieved any KPIs during your internship, be sure to include them with sufficient and relevant evidence.}
+\par No formal numerical KPIs were assigned for this internship. Performance was evaluated qualitatively by my supervisor based on the accuracy and completeness of requirement documentation, the clarity of system diagrams, the quality and turnaround time of UI/UX design iterations, and the effectiveness of communication with both the client and the development team across the two key projects.
 
 \section{Internship Summary}
 
-\textcolor{red}{Mention bit details about your summary and learning, not necessarily exact to the below given format}
-
-\par The industrial internship was a mandatory component of the undergraduate B.Sc. in Computer Science and Engineering program. It aimed to provide practical exposure and a real-world working environment to enhance academic learning with hands-on experience. The training focused on the application of theoretical knowledge to software development, debugging, collaboration, and use of modern tools in a professional setting.
-
-\par The internship was conducted in a hybrid mode, combining remote project-based tasks with periodic in-person meetings for review and feedback. A variety of learning methodologies were adopted, including self-paced assignments, team collaboration, live mentoring sessions, and peer code reviews. The experience helped in developing technical competency, improving communication skills, and strengthening ethical awareness.
-
-\textcolor{red}{Clearly mention the exact table rows along with your specific accomplishments and details.}
+\par The industrial internship was a mandatory component of the undergraduate B.Sc. in Computer Science and Engineering program. It provided practical exposure to a real business analysis and digital-solutions role, allowing the application of academic knowledge in requirements engineering, system design, and software development life cycle concepts to live client projects.
 
 \par The key summary of the internship is presented in Table~\ref{tab:internship-summary}.
 
@@ -165,37 +116,27 @@ project/
 \hline
 \textbf{Parameter} & \textbf{Details} \\
 \hline
-\textbf{Organization Name} & [Insert Company/Organization Name] \\
+\textbf{Organization Name} & Active Green Energy Ltd. \\
 \hline
-\textbf{Internship Period} & [Insert Start Date] to [Insert End Date] \\
+\textbf{Internship Period} & 23 July 2026 to 23 September 2026 \\
 \hline
-\textbf{Total Duration} & [e.g., 8 weeks (56 days)] \\
+\textbf{Total Duration} & Approximately 9 weeks \\
 \hline
-\textbf{Total Working Hours} & [e.g., 320 hours (approx.)] \\
+\textbf{Total Working Hours} & Approximately 130 hours \\
 \hline
-\textbf{Mode of Internship} & Hybrid (Remote + Onsite) \\
+\textbf{Department} & Digital Solutions \\
 \hline
-\textbf{Nature of Work} & Software Development, Testing, Debugging, Documentation \\
+\textbf{Nature of Work} & Business Analysis, Requirements Engineering, UI/UX Design, AI-Assisted Prototyping \\
 \hline
-\textbf{Tools and Technologies Used} & Git, Postman, JMeter, Firebase, Docker, SQL, JavaScript \\
+\textbf{Tools and Technologies Used} & Figma, Jira, Slack, Claude Code, Antigravity IDE, HTML, CSS, JavaScript \\
 \hline
-\textbf{Learning Methodology} & Self-paced tasks, Live mentoring, Code reviews, Weekly stand-up meetings \\
+\textbf{Learning Methodology} & Supervised client meetings, documentation review, iterative design feedback \\
 \hline
-\textbf{Reporting Mechanism} & Weekly progress reports and final project presentation \\
+\textbf{Reporting Mechanism} & Regular review meetings with supervisor, Jira-based task tracking \\
 \hline
-\textbf{Mentor/ Supervisor} & [Insert Mentor’s Name and Designation] \\
+\textbf{Mentor/Supervisor} & Md. Mochaddec Hossain, Business Analyst \\
 \hline
 \end{tabularx}
 \end{table}
 
-
-\textcolor{red}{Mention a concluding summary of your learning in 3-4 lines, not necessarily exact to the below given format}
-
-\par Overall, the internship provided a comprehensive platform to integrate academic concepts with practical industrial processes. It contributed significantly to the development of professional behavior, time management, technical proficiency, and alignment with Sustainable Development Goals (SDGs).
-
-% \section{Conclusion}
-% \begin{itemize}
-%     \item Summary of key experiences
-%     \item How training aligned with academic knowledge
-%     \item Future application of learned skills
-% \end{itemize}
+\par Overall, the internship provided a comprehensive platform to integrate academic concepts in requirements engineering and system design with practical industrial processes, contributing significantly to the development of professional communication, documentation discipline, and technical proficiency in business analysis and digital solution design.
